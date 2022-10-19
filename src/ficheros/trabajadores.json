@@ -1,0 +1,29 @@
+{
+    "2001": {
+        "nombre": "Jonathan",
+        "apellido": "Preciado",
+        "sueldo": 30.0,
+        "puesto": "Programador",
+        "RFC": "AQWJE32",
+        "CURP": "AMRO32",
+        "fecha_registro": "18/10/2022"
+    },
+    "3001": {
+        "nombre": "Amber",
+        "apellido": "Barajas",
+        "sueldo": 20.0,
+        "puesto": "Administrativo",
+        "RFC": "AQWJE32",
+        "CURP": "AMRO32",
+        "fecha_registro": "18/10/2022"
+    },
+    "4001": {
+        "nombre": "Juan",
+        "apellido": "Guerrero",
+        "sueldo": 50.0,
+        "puesto": "Jefe",
+        "RFC": "GUEJ6704AM",
+        "CURP": "GUEJ6704AM",
+        "fecha_registro": "18/10/2022"
+    }
+}

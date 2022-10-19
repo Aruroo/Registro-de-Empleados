@@ -1,4 +1,7 @@
+import shutil
 import sys
+from tkinter import filedialog
+import tkinter
 sys.path.append('../src')
 from tkinter import*
 from tkinter import ttk
@@ -14,6 +17,7 @@ class RegistroInterfaz():
            Clase auxiliar que crea la interfaz para agregar un trabajador
         """
         self.cuadro_registro = cuadro_registro
+        self.trabajador = None
         self.__agrega_trabajador_Label()
         self.__desplegable_opciones_trabajador()
         self.__establece_datos_trabajador()
@@ -107,6 +111,8 @@ class RegistroInterfaz():
             self.nombre.delete(0, END)
             self.apellido.delete(0, END)
             self.sueldo.delete(0, END)
+            self.rfc.delete(0, END)
+            self.curp.delete(0, END)
             self.opciones.set("")
         else:
             return
@@ -119,4 +125,12 @@ class RegistroInterfaz():
              or self.opciones.get() == "" or self.rfc.get() == "" or self.curp.get() == ""):
             return True
         else:
-            return False         
+            return False
+
+
+            
+
+        
+
+
+                       

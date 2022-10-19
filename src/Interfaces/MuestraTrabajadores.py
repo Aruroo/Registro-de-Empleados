@@ -21,7 +21,7 @@ class MuestraTrabajadores():
         registro = Registro()
         trabajadores = registro.muestra_trabajadores()
 
-        tabla = ttk.Treeview(self.cuadro_mostrar_empleados, columns=("ID","Nombre", "Apellido", "Sueldo", "Puesto"), show="headings")
+        tabla = ttk.Treeview(self.cuadro_mostrar_empleados, columns=("ID","Nombre", "Apellido", "Sueldo", "Puesto", "Fecha de Registro"), show="headings")
         tabla.place(x=20, y=100)
 
         tabla.heading("ID", text="ID")
@@ -29,10 +29,12 @@ class MuestraTrabajadores():
         tabla.heading("Apellido", text="Apellido")
         tabla.heading("Sueldo", text="Sueldo")
         tabla.heading("Puesto", text="Puesto")
+        tabla.heading("Fecha de Registro", text="Fecha de Registro")
 
         for trabajador in trabajadores:
             nombre =trabajadores[trabajador]["nombre"]
             apellido = trabajadores[trabajador]["apellido"]
             sueldo = trabajadores[trabajador]["sueldo"]
             puesto = trabajadores[trabajador]["puesto"]
-            tabla.insert("", "end", values=(trabajador,nombre, apellido, sueldo, puesto))  
+            fecha_registro = trabajadores[trabajador]["fecha_registro"]
+            tabla.insert("", "end", values=(trabajador,nombre, apellido, sueldo, puesto, fecha_registro))  

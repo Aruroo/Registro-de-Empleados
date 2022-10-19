@@ -1,4 +1,5 @@
 import json
+import time
 from Trabajos import Trabajador
 class Registro():
 
@@ -12,7 +13,10 @@ class Registro():
         """
         Agrega un trabajador al diccionario de trabajadores, con su ID como llave
         """
-        self.__trabajadores[trabajador.generaID()] = trabajador.__dict__()
+        self.__trabajadores[trabajador.id] = trabajador.__dict__()
+        #agregamos la fehca de alta
+        self.__trabajadores[trabajador.id]["fecha_registro"] = time.strftime("%d/%m/%Y")
+        
 
     def __necesita_almacenarse(self):
         """
@@ -27,20 +31,20 @@ class Registro():
         if self.__necesita_almacenarse():
             #checamos si el fichero ya existe
             try:
-                with open("trabajadores.json", "r") as fichero:
+                with open("ficheros/trabajadores.json", "r") as fichero:
                     datos = json.load(fichero)
                     fichero.close()
                 for trabajador in self.__trabajadores:
                         if trabajador not in datos:
                             datos[trabajador] = self.__trabajadores[trabajador]
-                with open("trabajadores.json", "w") as fichero:
+                with open("ficheros/trabajadores.json", "w") as fichero:
                     json.dump(datos, fichero, indent=4)
                     fichero.close()
                     return
         
             except FileNotFoundError:
                 #si no existe, lo creamos
-                with open("trabajadores.json", "w") as fichero:
+                with open("ficheros/trabajadores.json", "w") as fichero:
                     json.dump(self.__trabajadores, fichero, indent=4)
                 fichero.close()    
                 return
@@ -54,11 +58,11 @@ class Registro():
         Muestra los trabajadores almacenados en el fichero
         """
         try:
-            with open("trabajadores.json", "r") as fichero:
+            with open("ficheros/trabajadores.json", "r") as fichero:
                 datos = json.load(fichero)
                 fichero.close()
             return datos
         except FileNotFoundError:
             print("Error", "No hay trabajadores almacenados")
             return {}
-   
+ 

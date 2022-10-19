@@ -15,7 +15,7 @@ class Interfaz():
         """
         self.raiz = Tk()
         self.raiz.title("Aplicacion de Empresa")
-        self.raiz.geometry("1030x600")
+        self.raiz.geometry("1200x600")
         self.raiz.resizable(0,0)
         self.raiz.config(bg="white")
         self.__crea_saludo()
@@ -71,7 +71,7 @@ class Interfaz():
         """
         Cambia de frame
         """
-        frame.place(x=0, y=0, width=1030, height=600)
+        frame.place(x=0, y=0, width=1200, height=600)
         frame.tkraise()       
 
        
