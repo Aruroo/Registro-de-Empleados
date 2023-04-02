@@ -1,6 +1,12 @@
 import sys
 sys.path.append('../src')
-from tkinter import*
+from PIL import Image
+from PIL import ImageTk
+from tkinter import Label
+from tkinter import Entry
+from tkinter import Button
+from tkinter import END
+from tkinter import filedialog
 from tkinter import ttk
 from tkinter import messagebox
 from Registro import Registro
@@ -14,10 +20,14 @@ class RegistroInterfaz():
            Clase auxiliar que crea la interfaz para agregar un trabajador
         """
         self.cuadro_registro = cuadro_registro
+        self.trabajador = None
+        self.__imagen_def =Image.open("../src/ficheros/imagenes/default.jpg")
+        self.__crea_imagen(self.__imagen_def)
         self.__agrega_trabajador_Label()
         self.__desplegable_opciones_trabajador()
         self.__establece_datos_trabajador()
         self.__crea_boton_agregar()
+        self.__boton_agrega_imagen()
             
 
     def __agrega_trabajador_Label(self):
@@ -77,6 +87,56 @@ class RegistroInterfaz():
         boton_agregar = Button(self.cuadro_registro, text="Agregar", font=("Arial", 15), bg="white", command=self.__agrega_trabajador)
         boton_agregar.place(x=515, y=450)
 
+
+    def __boton_agrega_imagen(self):
+        """
+        Crea el boton para agregar una imagen
+        """
+        boton_agregar_imagen = Button(self.cuadro_registro, text="Agregar imagen", font=("Arial", 15), bg="white", command=self.__carga_imagen)
+        boton_agregar_imagen.place(x=50, y=420)
+
+    def __carga_imagen(self):
+        """
+        Carga la imagen del trabajador
+        """
+        ruta_imagen = self.__explorador_imagenes()
+        if ruta_imagen == "":
+            return
+        else: 
+            self.__imagen_def = Image.open(ruta_imagen)
+            imagen = Image.open(ruta_imagen)
+        self.__crea_imagen(imagen)
+
+    def  __crea_imagen(self, imagen:Image):
+        """
+        Muestra la imagen del trabajador a la izquierda.
+        """
+        imagen = imagen.resize((200, 200), Image.ANTIALIAS)
+        imagen = ImageTk.PhotoImage(imagen)
+        imagen_label = Label(self.cuadro_registro, image=imagen)
+        imagen_label.image = imagen
+        imagen_label.place(x=50, y=200)    
+          
+
+    def __explorador_imagenes(self) -> str:
+        """
+        Abre un explorador de archivos para que el usuario seleccione una imagen
+        en formato PNG, JPG o JPEG.
+        """
+        ruta_imagen = filedialog.askopenfilename(initialdir = "/",
+                                                title = "Selecciona una imagen",
+                                                filetypes = (("png files","*.png"),
+                                                ("jpg files","*.jpg"),
+                                                ("jpeg files","*.jpeg")))
+        return ruta_imagen
+
+    def __agrega_imagen_ficheros(self,imagen:Image, id_trabajador:str):
+        """
+        Agrega una imagen del trabajador a la carpeta de ficheros/imagenes.
+        """       
+        nombre_imagen = id_trabajador+ "." + imagen.format.lower()
+        imagen.save("../src/ficheros/imagenes/"+nombre_imagen)
+       
     def __agrega_trabajador(self):
         """
         Agrega un trabajador a la lista de trabajadores, segun el tipo de trabajador
@@ -101,13 +161,17 @@ class RegistroInterfaz():
             nuevoRegistro = Registro()
             nuevoRegistro.agregar_trabajador(self.trabajador)
             nuevoRegistro.almacena_trabajadores()
+            self.__agrega_imagen_ficheros(self.__imagen_def, str(self.trabajador.get_id()))
 
             messagebox.showinfo("Agregado", "Trabajador agregado con exito")
             
             self.nombre.delete(0, END)
             self.apellido.delete(0, END)
             self.sueldo.delete(0, END)
+            self.rfc.delete(0, END)
+            self.curp.delete(0, END)
             self.opciones.set("")
+            self.__imagen_def = Image.open("../src/ficheros/imagenes/default.jpg")
         else:
             return
 
@@ -119,4 +183,14 @@ class RegistroInterfaz():
              or self.opciones.get() == "" or self.rfc.get() == "" or self.curp.get() == ""):
             return True
         else:
-            return False         
+            return False
+         
+
+    
+
+            
+
+        
+
+
+                       

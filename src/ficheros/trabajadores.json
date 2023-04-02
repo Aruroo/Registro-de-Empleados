@@ -1,0 +1,47 @@
+{
+    "2001": {
+        "nombre": "Arturo",
+        "apellido": "Preciado",
+        "sueldo": 10.0,
+        "puesto": "Programador",
+        "RFC": "RFCEJEMPLO",
+        "CURP": "CURPEJEMPLO",
+        "fecha_registro": "01/04/2023"
+    },
+    "3001": {
+        "nombre": "Amber",
+        "apellido": "Barajas",
+        "sueldo": 20.0,
+        "puesto": "Administrativo",
+        "RFC": "AQWJE32",
+        "CURP": "AMRO32",
+        "fecha_registro": "18/10/2022"
+    },
+    "4001": {
+        "nombre": "Juan",
+        "apellido": "Guerrero",
+        "sueldo": 50.0,
+        "puesto": "Jefe",
+        "RFC": "GUEJ6704AM",
+        "CURP": "GUEJ6704AM",
+        "fecha_registro": "18/10/2022"
+    },
+    "1001": {
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "sueldo": 100,
+        "puesto": "Operario",
+        "RFC": "",
+        "CURP": "",
+        "fecha_registro": "01/04/2023"
+    },
+    "4001": {
+        "nombre": "gato",
+        "apellido": "wero",
+        "sueldo": 19999.0,
+        "puesto": "Jefe",
+        "RFC": "EVASORDEIMPUESTOS",
+        "CURP": "NO",
+        "fecha_registro": "01/04/2023"
+    }
+}
