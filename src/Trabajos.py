@@ -117,7 +117,9 @@ class Trabajador():
                 self.id = 5000 + datos["Otro"]
             else:
                 self.id = 50000 + datos["Otro"]
-         
+
+    def get_id(self):  
+         return self.id
 
         
            

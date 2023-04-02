@@ -1,7 +1,7 @@
 {
-    "Jefe": 0,
+    "Jefe": 1,
     "Administrativo": 0,
-    "Programador": 0,
-    "Operario": 0,
+    "Programador": 1,
+    "Operario": 1,
     "Otro": 0
 }

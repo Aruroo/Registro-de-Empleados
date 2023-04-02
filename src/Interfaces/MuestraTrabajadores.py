@@ -1,8 +1,8 @@
-import sys
-sys.path.append('../src')
+import os, sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from Registro import Registro
 from tkinter import*
 from tkinter import ttk
-from Registro import Registro
 
 class MuestraTrabajadores():
 
