@@ -134,6 +134,7 @@ class RegistroInterfaz():
         """
         Agrega una imagen del trabajador a la carpeta de ficheros/imagenes.
         """       
+        imagen = imagen.resize((200, 200), Image.ANTIALIAS) 
         nombre_imagen = id_trabajador+ "." + imagen.format.lower()
         imagen.save("../src/ficheros/imagenes/"+nombre_imagen)
        
@@ -153,18 +154,20 @@ class RegistroInterfaz():
         mensaje = messagebox.askquestion("Agregar", "¿Desea agregar a "+ self.nombre.get() + " " + self.apellido.get() + "?")
 
         if mensaje == "yes":
-
+            
+            # Creamos el trabajador
             self.trabajador = Trabajador(self.nombre.get(), self.apellido.get(), float(self.sueldo.get()), self.opciones.get())
             self.trabajador.set_RFC(self.rfc.get())
             self.trabajador.set_CURP(self.curp.get())
             
+            # Registramos el trabajador
             nuevoRegistro = Registro()
             nuevoRegistro.agregar_trabajador(self.trabajador)
-            nuevoRegistro.almacena_trabajadores()
             self.__agrega_imagen_ficheros(self.__imagen_def, str(self.trabajador.get_id()))
 
             messagebox.showinfo("Agregado", "Trabajador agregado con exito")
             
+            # Regresamos a los valores por defecto
             self.nombre.delete(0, END)
             self.apellido.delete(0, END)
             self.sueldo.delete(0, END)
@@ -172,6 +175,7 @@ class RegistroInterfaz():
             self.curp.delete(0, END)
             self.opciones.set("")
             self.__imagen_def = Image.open("../src/ficheros/imagenes/default.jpg")
+            self.__crea_imagen(self.__imagen_def)
         else:
             return
 
@@ -184,13 +188,3 @@ class RegistroInterfaz():
             return True
         else:
             return False
-         
-
-    
-
-            
-
-        
-
-
-                       
