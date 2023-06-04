@@ -1,7 +1,7 @@
 {
-    "Jefe": 1,
-    "Administrativo": 0,
-    "Programador": 1,
-    "Operario": 1,
-    "Otro": 0
+    "Jefe": 35,
+    "Administrativo": 62,
+    "Programador": 58,
+    "Operario": 121,
+    "Otro": 34
 }

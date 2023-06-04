@@ -99,13 +99,14 @@ class RegistroInterfaz():
         """
         Carga la imagen del trabajador
         """
-        ruta_imagen = self.__explorador_imagenes()
-        if ruta_imagen == "":
-            return
-        else: 
+        try:
+            ruta_imagen = self.__explorador_imagenes()
             self.__imagen_def = Image.open(ruta_imagen)
             imagen = Image.open(ruta_imagen)
-        self.__crea_imagen(imagen)
+            self.__crea_imagen(imagen)
+        except:
+            return
+
 
     def  __crea_imagen(self, imagen:Image):
         """
@@ -123,7 +124,7 @@ class RegistroInterfaz():
         Abre un explorador de archivos para que el usuario seleccione una imagen
         en formato PNG, JPG o JPEG.
         """
-        ruta_imagen = filedialog.askopenfilename(initialdir = "/",
+        ruta_imagen = filedialog.askopenfilename(initialdir = "/home/",
                                                 title = "Selecciona una imagen",
                                                 filetypes = (("png files","*.png"),
                                                 ("jpg files","*.jpg"),
@@ -163,8 +164,10 @@ class RegistroInterfaz():
             # Registramos el trabajador
             nuevoRegistro = Registro()
             nuevoRegistro.agregar_trabajador(self.trabajador)
-            self.__agrega_imagen_ficheros(self.__imagen_def, str(self.trabajador.get_id()))
-
+            try: # Si no se agrega la imagen, no pasa nada
+                self.__agrega_imagen_ficheros(self.__imagen_def, str(self.trabajador.get_id()))
+            except:
+                pass
             messagebox.showinfo("Agregado", "Trabajador agregado con exito")
             
             # Regresamos a los valores por defecto
