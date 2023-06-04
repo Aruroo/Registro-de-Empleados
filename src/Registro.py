@@ -14,7 +14,7 @@ class Registro():
         Agrega un trabajador al diccionario de trabajadores, con su ID como llave
         """
         self.__trabajadores[trabajador.id] = trabajador.__dict__()
-        #agregamos la fehca de alta
+        #agregamos la fecha de alta
         self.__trabajadores[trabajador.id]["fecha_registro"] = time.strftime("%d/%m/%Y")
         self.__almacena_trabajadores()   
 
