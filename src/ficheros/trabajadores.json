@@ -1,47 +1,920 @@
 {
-    "2001": {
-        "nombre": "Arturo",
-        "apellido": "Preciado",
-        "sueldo": 10.0,
-        "puesto": "Programador",
-        "RFC": "RFCEJEMPLO",
-        "CURP": "CURPEJEMPLO",
-        "fecha_registro": "01/04/2023"
-    },
-    "3001": {
-        "nombre": "Amber",
-        "apellido": "Barajas",
-        "sueldo": 20.0,
+    "3047": {
+        "nombre": "Laura",
+        "apellido": "Dean",
+        "sueldo": 10,
         "puesto": "Administrativo",
-        "RFC": "AQWJE32",
-        "CURP": "AMRO32",
-        "fecha_registro": "18/10/2022"
+        "RFC": "DeLa7816",
+        "CURP": "DeLa8573",
+        "fecha_registro": "04/06/2023"
     },
-    "4001": {
-        "nombre": "Juan",
-        "apellido": "Guerrero",
-        "sueldo": 50.0,
-        "puesto": "Jefe",
-        "RFC": "GUEJ6704AM",
-        "CURP": "GUEJ6704AM",
-        "fecha_registro": "18/10/2022"
-    },
-    "1001": {
-        "nombre": "Juan",
-        "apellido": "Perez",
-        "sueldo": 100,
+    "1074": {
+        "nombre": "Bruce",
+        "apellido": "Davis",
+        "sueldo": 16,
         "puesto": "Operario",
-        "RFC": "",
-        "CURP": "",
-        "fecha_registro": "01/04/2023"
+        "RFC": "DaBr3259",
+        "CURP": "DaBr5403",
+        "fecha_registro": "04/06/2023"
     },
-    "4001": {
-        "nombre": "gato",
-        "apellido": "wero",
-        "sueldo": 19999.0,
+    "1075": {
+        "nombre": "Kevin",
+        "apellido": "Phillips",
+        "sueldo": 23,
+        "puesto": "Operario",
+        "RFC": "PhKe7470",
+        "CURP": "PhKe1737",
+        "fecha_registro": "04/06/2023"
+    },
+    "1076": {
+        "nombre": "Justin",
+        "apellido": "Shepard",
+        "sueldo": 16,
+        "puesto": "Operario",
+        "RFC": "ShJu3777",
+        "CURP": "ShJu7633",
+        "fecha_registro": "04/06/2023"
+    },
+    "1077": {
+        "nombre": "Rachel",
+        "apellido": "Cain",
+        "sueldo": 29,
+        "puesto": "Operario",
+        "RFC": "CaRa7637",
+        "CURP": "CaRa3731",
+        "fecha_registro": "04/06/2023"
+    },
+    "1078": {
+        "nombre": "Cassandra",
+        "apellido": "Brennan",
+        "sueldo": 15,
+        "puesto": "Operario",
+        "RFC": "BrCa4457",
+        "CURP": "BrCa9895",
+        "fecha_registro": "04/06/2023"
+    },
+    "5024": {
+        "nombre": "James",
+        "apellido": "Jones",
+        "sueldo": 17,
+        "puesto": "Otro",
+        "RFC": "JoJa2911",
+        "CURP": "JoJa5136",
+        "fecha_registro": "04/06/2023"
+    },
+    "2044": {
+        "nombre": "Kimberly",
+        "apellido": "Williams",
+        "sueldo": 21,
+        "puesto": "Programador",
+        "RFC": "WiKi4114",
+        "CURP": "WiKi3760",
+        "fecha_registro": "04/06/2023"
+    },
+    "2045": {
+        "nombre": "Jackie",
+        "apellido": "Horton",
+        "sueldo": 21,
+        "puesto": "Programador",
+        "RFC": "HoJa8530",
+        "CURP": "HoJa3201",
+        "fecha_registro": "04/06/2023"
+    },
+    "2046": {
+        "nombre": "Terrance",
+        "apellido": "Burnett",
+        "sueldo": 10,
+        "puesto": "Programador",
+        "RFC": "BuTe6856",
+        "CURP": "BuTe3801",
+        "fecha_registro": "04/06/2023"
+    },
+    "5025": {
+        "nombre": "Timothy",
+        "apellido": "Watkins",
+        "sueldo": 26,
+        "puesto": "Otro",
+        "RFC": "WaTi2609",
+        "CURP": "WaTi8393",
+        "fecha_registro": "04/06/2023"
+    },
+    "1079": {
+        "nombre": "Jamie",
+        "apellido": "Copeland",
+        "sueldo": 10,
+        "puesto": "Operario",
+        "RFC": "CoJa1395",
+        "CURP": "CoJa7982",
+        "fecha_registro": "04/06/2023"
+    },
+    "3048": {
+        "nombre": "Leslie",
+        "apellido": "Miller",
+        "sueldo": 23,
+        "puesto": "Administrativo",
+        "RFC": "MiLe3867",
+        "CURP": "MiLe2940",
+        "fecha_registro": "04/06/2023"
+    },
+    "1080": {
+        "nombre": "Nathaniel",
+        "apellido": "Dixon",
+        "sueldo": 18,
+        "puesto": "Operario",
+        "RFC": "DiNa4229",
+        "CURP": "DiNa4460",
+        "fecha_registro": "04/06/2023"
+    },
+    "2047": {
+        "nombre": "Andrew",
+        "apellido": "Floyd",
+        "sueldo": 23,
+        "puesto": "Programador",
+        "RFC": "FlAn5813",
+        "CURP": "FlAn9757",
+        "fecha_registro": "04/06/2023"
+    },
+    "1081": {
+        "nombre": "Michelle",
+        "apellido": "Clark",
+        "sueldo": 15,
+        "puesto": "Operario",
+        "RFC": "ClMi9810",
+        "CURP": "ClMi2193",
+        "fecha_registro": "04/06/2023"
+    },
+    "1082": {
+        "nombre": "Brian",
+        "apellido": "Richardson",
+        "sueldo": 11,
+        "puesto": "Operario",
+        "RFC": "RiBr6657",
+        "CURP": "RiBr9805",
+        "fecha_registro": "04/06/2023"
+    },
+    "2048": {
+        "nombre": "Taylor",
+        "apellido": "Carter",
+        "sueldo": 19,
+        "puesto": "Programador",
+        "RFC": "CaTa6672",
+        "CURP": "CaTa5639",
+        "fecha_registro": "04/06/2023"
+    },
+    "1083": {
+        "nombre": "Thomas",
+        "apellido": "Long",
+        "sueldo": 23,
+        "puesto": "Operario",
+        "RFC": "LoTh6094",
+        "CURP": "LoTh8387",
+        "fecha_registro": "04/06/2023"
+    },
+    "5026": {
+        "nombre": "Robert",
+        "apellido": "Atkins",
+        "sueldo": 22,
+        "puesto": "Otro",
+        "RFC": "AtRo2889",
+        "CURP": "AtRo4387",
+        "fecha_registro": "04/06/2023"
+    },
+    "1084": {
+        "nombre": "Pamela",
+        "apellido": "Villegas",
+        "sueldo": 26,
+        "puesto": "Operario",
+        "RFC": "ViPa1437",
+        "CURP": "ViPa3652",
+        "fecha_registro": "04/06/2023"
+    },
+    "1085": {
+        "nombre": "Angela",
+        "apellido": "Green",
+        "sueldo": 16,
+        "puesto": "Operario",
+        "RFC": "GrAn6186",
+        "CURP": "GrAn7285",
+        "fecha_registro": "04/06/2023"
+    },
+    "1086": {
+        "nombre": "Clifford",
+        "apellido": "Allen",
+        "sueldo": 26,
+        "puesto": "Operario",
+        "RFC": "AlCl3527",
+        "CURP": "AlCl7352",
+        "fecha_registro": "04/06/2023"
+    },
+    "2049": {
+        "nombre": "Melanie",
+        "apellido": "Shaw",
+        "sueldo": 27,
+        "puesto": "Programador",
+        "RFC": "ShMe5834",
+        "CURP": "ShMe3200",
+        "fecha_registro": "04/06/2023"
+    },
+    "1087": {
+        "nombre": "Elizabeth",
+        "apellido": "Morgan",
+        "sueldo": 27,
+        "puesto": "Operario",
+        "RFC": "MoEl7164",
+        "CURP": "MoEl6231",
+        "fecha_registro": "04/06/2023"
+    },
+    "4024": {
+        "nombre": "Daniel",
+        "apellido": "Little",
+        "sueldo": 15,
         "puesto": "Jefe",
-        "RFC": "EVASORDEIMPUESTOS",
-        "CURP": "NO",
-        "fecha_registro": "01/04/2023"
+        "RFC": "LiDa7056",
+        "CURP": "LiDa6251",
+        "fecha_registro": "04/06/2023"
+    },
+    "3049": {
+        "nombre": "Brandon",
+        "apellido": "Reyes",
+        "sueldo": 27,
+        "puesto": "Administrativo",
+        "RFC": "ReBr1787",
+        "CURP": "ReBr3010",
+        "fecha_registro": "04/06/2023"
+    },
+    "1088": {
+        "nombre": "Grace",
+        "apellido": "Little",
+        "sueldo": 14,
+        "puesto": "Operario",
+        "RFC": "LiGr6654",
+        "CURP": "LiGr1290",
+        "fecha_registro": "04/06/2023"
+    },
+    "1089": {
+        "nombre": "Susan",
+        "apellido": "Ali",
+        "sueldo": 18,
+        "puesto": "Operario",
+        "RFC": "AlSu5312",
+        "CURP": "AlSu5000",
+        "fecha_registro": "04/06/2023"
+    },
+    "1090": {
+        "nombre": "Terrence",
+        "apellido": "Pratt",
+        "sueldo": 23,
+        "puesto": "Operario",
+        "RFC": "PrTe4462",
+        "CURP": "PrTe4950",
+        "fecha_registro": "04/06/2023"
+    },
+    "4025": {
+        "nombre": "Jennifer",
+        "apellido": "Howard",
+        "sueldo": 27,
+        "puesto": "Jefe",
+        "RFC": "HoJe2346",
+        "CURP": "HoJe6215",
+        "fecha_registro": "04/06/2023"
+    },
+    "3050": {
+        "nombre": "Jonathan",
+        "apellido": "Frazier",
+        "sueldo": 29,
+        "puesto": "Administrativo",
+        "RFC": "FrJo6351",
+        "CURP": "FrJo7482",
+        "fecha_registro": "04/06/2023"
+    },
+    "3051": {
+        "nombre": "Nicole",
+        "apellido": "Lawrence",
+        "sueldo": 13,
+        "puesto": "Administrativo",
+        "RFC": "LaNi9602",
+        "CURP": "LaNi2229",
+        "fecha_registro": "04/06/2023"
+    },
+    "1091": {
+        "nombre": "Thomas",
+        "apellido": "Watson",
+        "sueldo": 11,
+        "puesto": "Operario",
+        "RFC": "WaTh9556",
+        "CURP": "WaTh5844",
+        "fecha_registro": "04/06/2023"
+    },
+    "1092": {
+        "nombre": "Courtney",
+        "apellido": "Bishop",
+        "sueldo": 13,
+        "puesto": "Operario",
+        "RFC": "BiCo2464",
+        "CURP": "BiCo3141",
+        "fecha_registro": "04/06/2023"
+    },
+    "4026": {
+        "nombre": "Matthew",
+        "apellido": "Watkins",
+        "sueldo": 16,
+        "puesto": "Jefe",
+        "RFC": "WaMa5870",
+        "CURP": "WaMa7201",
+        "fecha_registro": "04/06/2023"
+    },
+    "1093": {
+        "nombre": "Jason",
+        "apellido": "Hughes",
+        "sueldo": 15,
+        "puesto": "Operario",
+        "RFC": "HuJa8205",
+        "CURP": "HuJa1306",
+        "fecha_registro": "04/06/2023"
+    },
+    "4027": {
+        "nombre": "Sharon",
+        "apellido": "Dominguez",
+        "sueldo": 11,
+        "puesto": "Jefe",
+        "RFC": "DoSh7812",
+        "CURP": "DoSh1303",
+        "fecha_registro": "04/06/2023"
+    },
+    "1094": {
+        "nombre": "Tara",
+        "apellido": "Hall",
+        "sueldo": 26,
+        "puesto": "Operario",
+        "RFC": "HaTa4838",
+        "CURP": "HaTa9805",
+        "fecha_registro": "04/06/2023"
+    },
+    "1095": {
+        "nombre": "Steven",
+        "apellido": "Burton",
+        "sueldo": 19,
+        "puesto": "Operario",
+        "RFC": "BuSt3341",
+        "CURP": "BuSt3461",
+        "fecha_registro": "04/06/2023"
+    },
+    "4028": {
+        "nombre": "Sabrina",
+        "apellido": "Alvarado",
+        "sueldo": 13,
+        "puesto": "Jefe",
+        "RFC": "AlSa4449",
+        "CURP": "AlSa9566",
+        "fecha_registro": "04/06/2023"
+    },
+    "1096": {
+        "nombre": "David",
+        "apellido": "Henderson",
+        "sueldo": 10,
+        "puesto": "Operario",
+        "RFC": "HeDa8608",
+        "CURP": "HeDa6830",
+        "fecha_registro": "04/06/2023"
+    },
+    "1097": {
+        "nombre": "Michelle",
+        "apellido": "Andrews",
+        "sueldo": 15,
+        "puesto": "Operario",
+        "RFC": "AnMi1113",
+        "CURP": "AnMi6483",
+        "fecha_registro": "04/06/2023"
+    },
+    "1098": {
+        "nombre": "Brooke",
+        "apellido": "Medina",
+        "sueldo": 15,
+        "puesto": "Operario",
+        "RFC": "MeBr2066",
+        "CURP": "MeBr9692",
+        "fecha_registro": "04/06/2023"
+    },
+    "1099": {
+        "nombre": "Amanda",
+        "apellido": "Parker",
+        "sueldo": 30,
+        "puesto": "Operario",
+        "RFC": "PaAm5724",
+        "CURP": "PaAm1438",
+        "fecha_registro": "04/06/2023"
+    },
+    "1100": {
+        "nombre": "Andrew",
+        "apellido": "Moreno",
+        "sueldo": 15,
+        "puesto": "Operario",
+        "RFC": "MoAn2050",
+        "CURP": "MoAn1632",
+        "fecha_registro": "04/06/2023"
+    },
+    "5027": {
+        "nombre": "Jenny",
+        "apellido": "White",
+        "sueldo": 22,
+        "puesto": "Otro",
+        "RFC": "WhJe1132",
+        "CURP": "WhJe5602",
+        "fecha_registro": "04/06/2023"
+    },
+    "2050": {
+        "nombre": "Wayne",
+        "apellido": "Hill",
+        "sueldo": 26,
+        "puesto": "Programador",
+        "RFC": "HiWa2291",
+        "CURP": "HiWa5669",
+        "fecha_registro": "04/06/2023"
+    },
+    "4029": {
+        "nombre": "Bobby",
+        "apellido": "Russell",
+        "sueldo": 27,
+        "puesto": "Jefe",
+        "RFC": "RuBo2277",
+        "CURP": "RuBo5775",
+        "fecha_registro": "04/06/2023"
+    },
+    "3052": {
+        "nombre": "Lori",
+        "apellido": "Chavez",
+        "sueldo": 11,
+        "puesto": "Administrativo",
+        "RFC": "ChLo9140",
+        "CURP": "ChLo7203",
+        "fecha_registro": "04/06/2023"
+    },
+    "4030": {
+        "nombre": "John",
+        "apellido": "Riley",
+        "sueldo": 23,
+        "puesto": "Jefe",
+        "RFC": "RiJo8932",
+        "CURP": "RiJo7005",
+        "fecha_registro": "04/06/2023"
+    },
+    "1101": {
+        "nombre": "Lauren",
+        "apellido": "Wilson",
+        "sueldo": 24,
+        "puesto": "Operario",
+        "RFC": "WiLa5077",
+        "CURP": "WiLa7359",
+        "fecha_registro": "04/06/2023"
+    },
+    "5028": {
+        "nombre": "Destiny",
+        "apellido": "Pruitt",
+        "sueldo": 26,
+        "puesto": "Otro",
+        "RFC": "PrDe9385",
+        "CURP": "PrDe8240",
+        "fecha_registro": "04/06/2023"
+    },
+    "1102": {
+        "nombre": "Mark",
+        "apellido": "Hubbard",
+        "sueldo": 14,
+        "puesto": "Operario",
+        "RFC": "HuMa7835",
+        "CURP": "HuMa8569",
+        "fecha_registro": "04/06/2023"
+    },
+    "1103": {
+        "nombre": "Lisa",
+        "apellido": "Hayes",
+        "sueldo": 19,
+        "puesto": "Operario",
+        "RFC": "HaLi2639",
+        "CURP": "HaLi4670",
+        "fecha_registro": "04/06/2023"
+    },
+    "3053": {
+        "nombre": "Andre",
+        "apellido": "Heath",
+        "sueldo": 17,
+        "puesto": "Administrativo",
+        "RFC": "HeAn5092",
+        "CURP": "HeAn1299",
+        "fecha_registro": "04/06/2023"
+    },
+    "4031": {
+        "nombre": "Derek",
+        "apellido": "Gonzalez",
+        "sueldo": 17,
+        "puesto": "Jefe",
+        "RFC": "GoDe3008",
+        "CURP": "GoDe4566",
+        "fecha_registro": "04/06/2023"
+    },
+    "1104": {
+        "nombre": "Jasmin",
+        "apellido": "Stout",
+        "sueldo": 28,
+        "puesto": "Operario",
+        "RFC": "StJa8832",
+        "CURP": "StJa6252",
+        "fecha_registro": "04/06/2023"
+    },
+    "5029": {
+        "nombre": "Thomas",
+        "apellido": "Smith",
+        "sueldo": 15,
+        "puesto": "Otro",
+        "RFC": "SmTh2258",
+        "CURP": "SmTh7554",
+        "fecha_registro": "04/06/2023"
+    },
+    "2051": {
+        "nombre": "Catherine",
+        "apellido": "Richardson",
+        "sueldo": 14,
+        "puesto": "Programador",
+        "RFC": "RiCa2125",
+        "CURP": "RiCa9405",
+        "fecha_registro": "04/06/2023"
+    },
+    "3054": {
+        "nombre": "Jack",
+        "apellido": "Riddle",
+        "sueldo": 24,
+        "puesto": "Administrativo",
+        "RFC": "RiJa8751",
+        "CURP": "RiJa8337",
+        "fecha_registro": "04/06/2023"
+    },
+    "5030": {
+        "nombre": "Theresa",
+        "apellido": "Phillips",
+        "sueldo": 26,
+        "puesto": "Otro",
+        "RFC": "PhTh8841",
+        "CURP": "PhTh3757",
+        "fecha_registro": "04/06/2023"
+    },
+    "2052": {
+        "nombre": "Ashley",
+        "apellido": "Atkins",
+        "sueldo": 30,
+        "puesto": "Programador",
+        "RFC": "AtAs9939",
+        "CURP": "AtAs9419",
+        "fecha_registro": "04/06/2023"
+    },
+    "1105": {
+        "nombre": "Marcus",
+        "apellido": "Bender",
+        "sueldo": 28,
+        "puesto": "Operario",
+        "RFC": "BeMa6018",
+        "CURP": "BeMa1107",
+        "fecha_registro": "04/06/2023"
+    },
+    "4032": {
+        "nombre": "Christina",
+        "apellido": "Dunn",
+        "sueldo": 12,
+        "puesto": "Jefe",
+        "RFC": "DuCh7077",
+        "CURP": "DuCh7176",
+        "fecha_registro": "04/06/2023"
+    },
+    "2053": {
+        "nombre": "Zachary",
+        "apellido": "Phillips",
+        "sueldo": 13,
+        "puesto": "Programador",
+        "RFC": "PhZa7367",
+        "CURP": "PhZa6398",
+        "fecha_registro": "04/06/2023"
+    },
+    "5031": {
+        "nombre": "John",
+        "apellido": "Grant",
+        "sueldo": 15,
+        "puesto": "Otro",
+        "RFC": "GrJo9417",
+        "CURP": "GrJo3012",
+        "fecha_registro": "04/06/2023"
+    },
+    "3055": {
+        "nombre": "Jacqueline",
+        "apellido": "Holmes",
+        "sueldo": 20,
+        "puesto": "Administrativo",
+        "RFC": "HoJa9725",
+        "CURP": "HoJa3534",
+        "fecha_registro": "04/06/2023"
+    },
+    "1106": {
+        "nombre": "Christopher",
+        "apellido": "Wilson",
+        "sueldo": 22,
+        "puesto": "Operario",
+        "RFC": "WiCh5297",
+        "CURP": "WiCh2436",
+        "fecha_registro": "04/06/2023"
+    },
+    "1107": {
+        "nombre": "Mark",
+        "apellido": "Terrell",
+        "sueldo": 13,
+        "puesto": "Operario",
+        "RFC": "TeMa6868",
+        "CURP": "TeMa4993",
+        "fecha_registro": "04/06/2023"
+    },
+    "1108": {
+        "nombre": "Rebecca",
+        "apellido": "Yoder",
+        "sueldo": 29,
+        "puesto": "Operario",
+        "RFC": "YoRe7060",
+        "CURP": "YoRe7549",
+        "fecha_registro": "04/06/2023"
+    },
+    "2054": {
+        "nombre": "Wanda",
+        "apellido": "Wright",
+        "sueldo": 23,
+        "puesto": "Programador",
+        "RFC": "WrWa7562",
+        "CURP": "WrWa2585",
+        "fecha_registro": "04/06/2023"
+    },
+    "2055": {
+        "nombre": "David",
+        "apellido": "Shannon",
+        "sueldo": 30,
+        "puesto": "Programador",
+        "RFC": "ShDa2073",
+        "CURP": "ShDa7857",
+        "fecha_registro": "04/06/2023"
+    },
+    "3056": {
+        "nombre": "Robert",
+        "apellido": "Ramos",
+        "sueldo": 10,
+        "puesto": "Administrativo",
+        "RFC": "RaRo3624",
+        "CURP": "RaRo1232",
+        "fecha_registro": "04/06/2023"
+    },
+    "2056": {
+        "nombre": "Walter",
+        "apellido": "Decker",
+        "sueldo": 11,
+        "puesto": "Programador",
+        "RFC": "DeWa3340",
+        "CURP": "DeWa1629",
+        "fecha_registro": "04/06/2023"
+    },
+    "3057": {
+        "nombre": "Jessica",
+        "apellido": "Farrell",
+        "sueldo": 28,
+        "puesto": "Administrativo",
+        "RFC": "FaJe5475",
+        "CURP": "FaJe7972",
+        "fecha_registro": "04/06/2023"
+    },
+    "1109": {
+        "nombre": "Robert",
+        "apellido": "Jordan",
+        "sueldo": 21,
+        "puesto": "Operario",
+        "RFC": "JoRo2046",
+        "CURP": "JoRo1009",
+        "fecha_registro": "04/06/2023"
+    },
+    "5032": {
+        "nombre": "Courtney",
+        "apellido": "Fisher",
+        "sueldo": 29,
+        "puesto": "Otro",
+        "RFC": "FiCo9956",
+        "CURP": "FiCo1796",
+        "fecha_registro": "04/06/2023"
+    },
+    "3058": {
+        "nombre": "Jason",
+        "apellido": "Smith",
+        "sueldo": 25,
+        "puesto": "Administrativo",
+        "RFC": "SmJa9305",
+        "CURP": "SmJa2172",
+        "fecha_registro": "04/06/2023"
+    },
+    "2057": {
+        "nombre": "Stephanie",
+        "apellido": "Allen",
+        "sueldo": 19,
+        "puesto": "Programador",
+        "RFC": "AlSt9244",
+        "CURP": "AlSt5430",
+        "fecha_registro": "04/06/2023"
+    },
+    "5033": {
+        "nombre": "Victoria",
+        "apellido": "Garrett",
+        "sueldo": 12,
+        "puesto": "Otro",
+        "RFC": "GaVi8658",
+        "CURP": "GaVi6517",
+        "fecha_registro": "04/06/2023"
+    },
+    "2058": {
+        "nombre": "Jason",
+        "apellido": "Hess",
+        "sueldo": 19,
+        "puesto": "Programador",
+        "RFC": "HeJa1051",
+        "CURP": "HeJa5812",
+        "fecha_registro": "04/06/2023"
+    },
+    "5034": {
+        "nombre": "Pamela",
+        "apellido": "Shannon",
+        "sueldo": 12,
+        "puesto": "Otro",
+        "RFC": "ShPa7519",
+        "CURP": "ShPa7663",
+        "fecha_registro": "04/06/2023"
+    },
+    "3059": {
+        "nombre": "Aaron",
+        "apellido": "Jones",
+        "sueldo": 13,
+        "puesto": "Administrativo",
+        "RFC": "JoAa1085",
+        "CURP": "JoAa2876",
+        "fecha_registro": "04/06/2023"
+    },
+    "4033": {
+        "nombre": "Craig",
+        "apellido": "Miller",
+        "sueldo": 13,
+        "puesto": "Jefe",
+        "RFC": "MiCr2150",
+        "CURP": "MiCr3181",
+        "fecha_registro": "04/06/2023"
+    },
+    "1110": {
+        "nombre": "Brandi",
+        "apellido": "Patterson",
+        "sueldo": 27,
+        "puesto": "Operario",
+        "RFC": "PaBr9889",
+        "CURP": "PaBr7814",
+        "fecha_registro": "04/06/2023"
+    },
+    "1111": {
+        "nombre": "Robert",
+        "apellido": "Anderson",
+        "sueldo": 13,
+        "puesto": "Operario",
+        "RFC": "AnRo2390",
+        "CURP": "AnRo5784",
+        "fecha_registro": "04/06/2023"
+    },
+    "1112": {
+        "nombre": "Stephen",
+        "apellido": "Gonzalez",
+        "sueldo": 14,
+        "puesto": "Operario",
+        "RFC": "GoSt5210",
+        "CURP": "GoSt5264",
+        "fecha_registro": "04/06/2023"
+    },
+    "1113": {
+        "nombre": "Michelle",
+        "apellido": "Vazquez",
+        "sueldo": 23,
+        "puesto": "Operario",
+        "RFC": "VaMi9466",
+        "CURP": "VaMi8576",
+        "fecha_registro": "04/06/2023"
+    },
+    "1114": {
+        "nombre": "Samantha",
+        "apellido": "Sanchez",
+        "sueldo": 29,
+        "puesto": "Operario",
+        "RFC": "SaSa1398",
+        "CURP": "SaSa2029",
+        "fecha_registro": "04/06/2023"
+    },
+    "1115": {
+        "nombre": "William",
+        "apellido": "Mccann",
+        "sueldo": 14,
+        "puesto": "Operario",
+        "RFC": "McWi1303",
+        "CURP": "McWi1086",
+        "fecha_registro": "04/06/2023"
+    },
+    "1116": {
+        "nombre": "Jessica",
+        "apellido": "Johnson",
+        "sueldo": 16,
+        "puesto": "Operario",
+        "RFC": "JoJe4059",
+        "CURP": "JoJe8016",
+        "fecha_registro": "04/06/2023"
+    },
+    "1117": {
+        "nombre": "Damon",
+        "apellido": "Brown",
+        "sueldo": 21,
+        "puesto": "Operario",
+        "RFC": "BrDa2086",
+        "CURP": "BrDa7080",
+        "fecha_registro": "04/06/2023"
+    },
+    "1118": {
+        "nombre": "Pamela",
+        "apellido": "Anderson",
+        "sueldo": 24,
+        "puesto": "Operario",
+        "RFC": "AnPa2978",
+        "CURP": "AnPa4432",
+        "fecha_registro": "04/06/2023"
+    },
+    "4034": {
+        "nombre": "Katherine",
+        "apellido": "Vargas",
+        "sueldo": 14,
+        "puesto": "Jefe",
+        "RFC": "VaKa1260",
+        "CURP": "VaKa1476",
+        "fecha_registro": "04/06/2023"
+    },
+    "1119": {
+        "nombre": "Stephanie",
+        "apellido": "Lewis",
+        "sueldo": 30,
+        "puesto": "Operario",
+        "RFC": "LeSt4449",
+        "CURP": "LeSt1548",
+        "fecha_registro": "04/06/2023"
+    },
+    "3060": {
+        "nombre": "James",
+        "apellido": "Jimenez",
+        "sueldo": 21,
+        "puesto": "Administrativo",
+        "RFC": "JiJa9541",
+        "CURP": "JiJa6717",
+        "fecha_registro": "04/06/2023"
+    },
+    "3061": {
+        "nombre": "Susan",
+        "apellido": "Burke",
+        "sueldo": 11,
+        "puesto": "Administrativo",
+        "RFC": "BuSu4165",
+        "CURP": "BuSu3291",
+        "fecha_registro": "04/06/2023"
+    },
+    "3062": {
+        "nombre": "Yvonne",
+        "apellido": "Perez",
+        "sueldo": 24,
+        "puesto": "Administrativo",
+        "RFC": "PeYv7147",
+        "CURP": "PeYv4552",
+        "fecha_registro": "04/06/2023"
+    },
+    "1120": {
+        "nombre": "Rebecca",
+        "apellido": "Daniel",
+        "sueldo": 11,
+        "puesto": "Operario",
+        "RFC": "DaRe7213",
+        "CURP": "DaRe8558",
+        "fecha_registro": "04/06/2023"
+    },
+    "4035": {
+        "nombre": "Jonathan",
+        "apellido": "Reyes",
+        "sueldo": 30.0,
+        "puesto": "Jefe",
+        "RFC": "SI",
+        "CURP": "CURP",
+        "fecha_registro": "04/06/2023"
+    },
+    "1121": {
+        "nombre": "Juan",
+        "apellido": "Ramirez",
+        "sueldo": 30.0,
+        "puesto": "Operario",
+        "RFC": "RFCFIC",
+        "CURP": "CURPQ2",
+        "fecha_registro": "04/06/2023"
     }
 }
